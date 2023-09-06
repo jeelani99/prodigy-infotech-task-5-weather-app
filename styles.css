@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ba0cc6;
+  }
+  
+  .weather-app {
+    text-align: center;
+    color: deeppink;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .location {
+    margin-bottom: 10px;
+  }
+  
+  .location input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .location button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .temperature {
+    font-size: 18px;
+  }
+  
+  .condition {
+    font-size: 18px;
+    color: #555;
+  }
+  
